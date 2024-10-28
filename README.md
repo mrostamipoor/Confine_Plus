@@ -8,3 +8,4 @@ Then, run Confine using below command (for example:`python3 main.py nginx 2.31 /
   python3 main.py containerName glibcVersion PathtoMainProgram
 ```
 You can see the created seccomp profile by `Confine` for Nginx conatiner in `result` directory as a sample.
+Read our detailed [research paper](https://mrostamipoor.github.io/files/confine.pdf) to understand the methodology and the principles guiding the development of Confine.
